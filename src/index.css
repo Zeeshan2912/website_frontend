@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Clean, professional styles */
+.section-heading {
+  @apply text-4xl md:text-5xl font-bold text-gray-900;
+}
+
+.section-divider {
+  @apply w-24 h-1 bg-orange-500 my-6;
+}
+
+.btn-primary {
+  @apply bg-orange-500 text-white font-semibold py-2 px-6 rounded-lg hover:bg-orange-600 transition-colors duration-300;
+}
